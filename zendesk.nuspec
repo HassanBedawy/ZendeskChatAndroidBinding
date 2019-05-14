@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>Zendesk.Chat.Android.Bindings</id>
+        <id>Xamarin.Bindings.Zendesk.Chat.Android</id>
         <version>1.0.5.0</version>
         <description>Xamarin Binding Library - Zendesk Chat</description>
         <authors>Hassan Bedawy</authors>
