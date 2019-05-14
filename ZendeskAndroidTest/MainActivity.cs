@@ -50,7 +50,7 @@ namespace ZendeskAndroidTest
             View view = (View) sender;
             Snackbar.Make(view, "Replace with your own action", Snackbar.LengthLong)
                 .SetAction("Action", (Android.Views.View.IOnClickListener)null).Show();
-            ZopimChatApi.Init("MtQ7uqHGiMKkIBNSfnQnEs97auURAt55");
+            ZopimChatApi.Init("{Your API Key}");
             Intent intent = new Intent(this, typeof(ZopimChatActivity));  
             StartActivity(intent);  
             
