@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Equiti.Zendesk.Chat.Bindings</id>
+        <version>1.0.4.0</version>
+        <description>Xamarin Binding Library - Zendesk Chat</description>
+        <authors>Hassan Bedawy</authors>
+        <owners>Equiti Group</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Zendesk Chat</title>
+        <releaseNotes>Bindings with Zendesk Chat 1.4</releaseNotes>
+        <summary>Xamarin Binding Library - Zendesk Chat</summary>
+        <license>https://opensource.org/licenses/MIT</license>
+        <projectUrl>https://equiti.com</projectUrl>
+        <copyright>Copyright (c) 2018 Equiti Group</copyright>
+        <tags>Xamarin.Android, zendesk, beldevere, providers, sdk, helddesk</tags>
+        <dependencies>
+        <group targetFramework="MonoAndroid81">
+            <dependency id="Xamarin.Android.Support.Annotations" version="27.0.2.1" />
+            <dependency id="Xamarin.Android.Support.Compat" version="27.0.2.1" />
+            <dependency id="Xamarin.Android.Support.Core.UI" version="27.0.2.1" />
+            <dependency id="Xamarin.Android.Support.Core.Utils" version="27.0.2.1" />
+            <dependency id="Xamarin.Android.Support.Fragment" version="27.0.2.1" />
+            <dependency id="Xamarin.Android.Support.Media.Compat" version="27.0.2.1" />
+            <dependency id="Xamarin.Android.Support.v4" version="27.0.2.1" />
+            <dependency id="Xamarin.Android.Support.v7.AppCompat" version="27.0.2.1" />
+            <dependency id="Xamarin.Android.Support.Vector.Drawable" version="27.0.2.1" />
+            <dependency id="Xamarin.Android.Support.Design" version="27.0.2.1" />
+            <dependency id="Xamarin.Android.Arch.Core.Common" version="1.0.0.1" />
+            <dependency id="Xamarin.Android.Arch.Lifecycle.Common" version="1.0.3.1" />
+            <dependency id="Xamarin.Android.Arch.Lifecycle.Runtime" version="1.0.3.1" />
+            <dependency id="Xamarin.Android.Support.Animated.Vector.Drawable" version="27.0.2.1" />
+            <dependency id="Square.OkHttp" version="2.4.0" />
+            <dependency id="Square.OkIO" version="1.5.0" />
+            <dependency id="Square.Picasso" version="2.5.2.1" />
+            </group>
+        </dependencies>
+        
+    </metadata>
+    <files>
+      <file src="ZendeskAndroidTest/bin/Release/Gson.dll" target="lib/MonoAndroid81/" />
+      <file src="ZendeskAndroidTest/bin/Release/JavaCommon.dll" target="lib/MonoAndroid81/" />
+      <file src="ZendeskAndroidTest/bin/Release/Zendesk.Api.dll" target="lib/MonoAndroid81/" />
+      <file src="ZendeskAndroidTest/bin/Release/ZendeskChatBinding.dll" target="lib/MonoAndroid81/" />
+      <file src="ZendeskAndroidTest/bin/Release/Belvedere.dll" target="lib/MonoAndroid81/" />
+    </files>
+</package>

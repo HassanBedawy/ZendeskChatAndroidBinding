@@ -1,0 +1,32 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.model.items']/class[@name='VisitorMessage']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.model.items']/class[@name='VisitorAttachment']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.model.items']/class[@name='ChatRating']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.model.items']/class[@name='ChatMemberEvent']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.model.items']/class[@name='ChatEvent']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.model.items']/class[@name='AgentTyping']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.model.items']/class[@name='AgentOptions']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.model.items']/class[@name='AgentMessage']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.model.items']/class[@name='AgentAttachment']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.model']/class[@name='ChatLog']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.data']/class[@name='LivechatProfilePath']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.data']/class[@name='LivechatFormsPath']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.data']/class[@name='LivechatFileSendingPath']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.data']/class[@name='LivechatDepartmentsPath']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.data']/class[@name='LivechatChatLogPath']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.data']/class[@name='LivechatAgentsPath']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.data']/class[@name='LivechatAccountPath']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.data']/class[@name='ConnectionPath']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.api']/class[@name='ZopimChatApi.DefaultConfig']/method[@name='department']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.api']/class[@name='ZopimChatApi.DefaultConfig']/method[@name='tags']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.api']/class[@name='ZopimChatApi.DefaultConfig']/method[@name='visitorPathOne']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.api']/class[@name='ZopimChatApi.DefaultConfig']/method[@name='visitorPathTwo']" />
+  <remove-node path="/api/package[@name='com.zopim.android.sdk.api']/class[@name='ZopimChatApi.SessionApiConfig']" />
+</metadata>
