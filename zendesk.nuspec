@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>Equiti.Zendesk.Chat.Bindings</id>
-        <version>1.0.4.0</version>
+        <id>Zendesk.Chat.Android.Bindings</id>
+        <version>1.0.5.0</version>
         <description>Xamarin Binding Library - Zendesk Chat</description>
         <authors>Hassan Bedawy</authors>
-        <owners>Equiti Group</owners>
+        <owners>Hassan Bedawy</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <title>Zendesk Chat</title>
-        <releaseNotes>Bindings with Zendesk Chat 1.4</releaseNotes>
+        <releaseNotes>Bindings with Zendesk Android Chat 1.4</releaseNotes>
         <summary>Xamarin Binding Library - Zendesk Chat</summary>
         <license>https://opensource.org/licenses/MIT</license>
-        <projectUrl>https://equiti.com</projectUrl>
-        <copyright>Copyright (c) 2018 Equiti Group</copyright>
+        <projectUrl>https://github.com/HassanBedawy/ZendeskChatAndroidBinding</projectUrl>
+        <copyright></copyright>
         <tags>Xamarin.Android, zendesk, beldevere, providers, sdk, helddesk</tags>
         <dependencies>
         <group targetFramework="MonoAndroid81">
